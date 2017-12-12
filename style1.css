@@ -1,0 +1,32 @@
+.top-bar{
+    background-color:#009999;
+    padding: 6px;
+    color: aliceblue
+}
+
+.my-menu .navbar-default{
+    
+    background: none;
+    border: none;
+}
+
+.my-menu .navbar-nav .activea, .my-menu .navbar .active 
+a:hover{
+    background-color: #009999;
+    color: white;
+}
+
+.my-menu .navbar-nav li a{
+    background-color: #009999;
+    color: white;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
